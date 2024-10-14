@@ -19,28 +19,33 @@ public class CollectionsExercises {
     }
 
     public Stack<Integer> useStack() {
-        // TODO: create an empty stack
-        //  - add 5, 6, 8, 9 to the stack
-        //  - print the first element of the stack on the screen
-        //  - print the last element of the stack on the screen
-        //  - invoke the method pop() on the stack and print the result on the screen
-        //  - invoke the push(4) method on the stack
-        //  - return the stack
-        throw new RuntimeException("Not implemented");
+        Stack<Integer> integers = new Stack<>();// TODO: create an empty stack
+        integers.add(5);
+        integers.add(6);
+        integers.add(8);
+        integers.add(9);//  - add 5, 6, 8, 9 to the stack
+        System.out.println(integers.firstElement());//  - print the first element of the stack on the screen
+        System.out.println(integers.lastElement());//  - print the last element of the stack on the screen
+        System.out.println(integers.pop());//  - invoke the method pop() on the stack and print the result on the screen
+        integers.push(4);//  - invoke the push(4) method on the stack
+        return integers;//  - return the stack
     }
 
     public ArrayDeque<Integer> useArrayDeque() {
-        // TODO: create an empty arrayDeque
-        //  - add 5, 6, 8, 9 to the queue
-        //  - print the first element of the queue on the screen
-        //  - print the last element of the queue on the screen
-        //  - invoke the method poll() on the queue and print the result on the screen
-        //  - invoke the element() method on the queue and print the result on the screen
-        //  - return the queue
-        throw new RuntimeException("Not implemented");
+        ArrayDeque<Integer> integers = new ArrayDeque<>();// TODO: create an empty arrayDeque
+        integers.add(5);
+        integers.add(6);
+        integers.add(8);
+        integers.add(9);//  - add 5, 6, 8, 9 to the queue
+        System.out.println(integers.getFirst());//  - print the first element of the queue on the screen
+        System.out.println(integers.getLast());//  - print the last element of the queue on the screen
+        System.out.println(integers.poll());//  - invoke the method poll() on the queue and print the result on the screen
+        System.out.println(integers.element());//  - invoke the element() method on the queue and print the result on the screen
+        return integers;//  - return the queue
     }
 
     public HashMap<Integer, String> useHashMap() {
+        // Hashmap<Integer, String> integers = new Hashmaps<>();
         // TODO: create an empty hash map
         //  - add {1, TypeScript} entry to the map
         //  - add {2, Kotlin} entry to the map
